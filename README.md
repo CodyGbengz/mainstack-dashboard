@@ -30,7 +30,7 @@ which contains components, services, css, etc that is used across different modu
 
 ## SETTING UP PROJECT
 
--   Run `npm` to install dependencies
+-   Run `npm install` to install dependencies
 
 ## TESTING
 
