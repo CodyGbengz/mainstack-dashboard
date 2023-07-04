@@ -1,0 +1,97 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`COMPONENT TEST: DonutCard > Should match snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="sc-eCstFB jDGZCq"
+    >
+      <div
+        class="sc-jSgtCu BVkWv"
+      >
+        <div
+          class="sc-hKgJyM riRPJ"
+        >
+          <p
+            class="sc-bdfCkl inwahD"
+            font-weight="bold"
+          >
+            My test card
+          </p>
+          <p
+            class="sc-bdfCkl hJmnRW"
+            color="#FF5403"
+            font-size="0.875rem"
+            font-weight="thin"
+          >
+            View full reports
+          </p>
+        </div>
+      </div>
+      <div
+        class="sc-hKgJyM riRPJ"
+      >
+        <div
+          class="sc-dlfmnT cZSXsv"
+        >
+          <div
+            style="display: flex; gap: 0.5rem; align-items: center;"
+          >
+            <span
+              class="fi fi-ng"
+            />
+            <p
+              class="sc-bdfCkl fKJepU"
+              font-size="0.875rem"
+              font-weight="thin"
+            >
+              Nigeria
+               
+              34
+              %
+            </p>
+            <div
+              class="sc-gsTChe NqgVI"
+              color="rgba(89, 158, 234, 1)"
+            />
+          </div>
+          <div
+            style="display: flex; gap: 0.5rem; align-items: center;"
+          >
+            <span
+              class="fi fi-de"
+            />
+            <p
+              class="sc-bdfCkl fKJepU"
+              font-size="0.875rem"
+              font-weight="thin"
+            >
+              Germany
+               
+              19
+              %
+            </p>
+            <div
+              class="sc-gsTChe jllppm"
+              color="rgba(132, 79, 246, 1)"
+            />
+          </div>
+        </div>
+        <div
+          class="sc-dlfmnT cZSXsv"
+        >
+          <div
+            class="sc-gKsdJj gZkwhB"
+          >
+            <canvas
+              height="150"
+              role="img"
+              width="300"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

@@ -1,0 +1,16 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`COMPONENT TEST: Avatar > Should match snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="sc-bdfCkl iCZpDR"
+    >
+      <img
+        alt="user avatar"
+        src="/src/assets/userImage.png"
+      />
+    </div>
+  </div>
+</body>
+`;

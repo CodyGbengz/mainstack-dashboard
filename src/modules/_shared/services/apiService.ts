@@ -1,21 +1,15 @@
 import axios from 'axios';
 
-import { ApiRequestResult, IRequestOptions,  } from '../@types';
+import { ApiRequestResult } from '../@types';
 
-export type ApiGet<T> = (
-	url: string,
-	options?: IRequestOptions,
-) => Promise<ApiRequestResult<T>>;
+export type ApiGet<T> = (url: string) => Promise<ApiRequestResult<T>>;
 
-export async function apiGet<TData = any>(
-	url: string,
-	options?: IRequestOptions,
-): Promise<ApiRequestResult<TData>> {
-	try {
-		const response = await axios.get(url);
-		const { data, count } = response.data;
-		return { data, success: true, count };
-	} catch (err) {
-		console.log(err)
-	}
+export async function apiGet(url: string) {
+  try {
+    const response = await axios.get(url);
+    const { data } = response;
+    return { data, success: true };
+  } catch (err) {
+    console.log(err);
+  }
 }

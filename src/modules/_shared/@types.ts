@@ -8,9 +8,8 @@ export type ApiRequestResult<TData = any> = {
 	count?: number;
 };
 
-export interface IRequestOptions {
-	fixedErrorMessage?: string;
-	suppressErrors?: boolean;
-	useServerErrorMsg?: boolean;
-	returnDataExpected?: boolean;
+export interface DashboardData {
+    graph_data: any;
+    top_locations: any;
+    top_sources: any;
 }

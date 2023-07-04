@@ -1,0 +1,15 @@
+{
+	"extends": "./tsconfig.json",
+	"exclude": [
+		"src/**/*.test.ts",
+		"src/**/*.test.tsx",
+		"src/**/*.test.ts",
+		"src/**/*.test.tsx",
+		"cypress/**/*.test.ts",
+		"cypress/**/*.spec.ts",
+		"cypress/**/*.ts"
+	],
+	"compilerOptions": {
+		"skipLibCheck": true
+	}
+}

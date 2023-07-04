@@ -1,0 +1,12 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`COMPONENT TEST: Dot > Should match snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="sc-bdfCkl excHMW"
+      color="blue"
+    />
+  </div>
+</body>
+`;
